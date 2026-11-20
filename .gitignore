@@ -1,0 +1,36 @@
+# 构建产物
+build/
+app/build/
+.gradle/
+.gradle-home/
+gradle-home/
+.kotlin/
+
+# 本地配置（含本机 SDK 路径，不应提交）
+local.properties
+
+# 构建日志与临时目录
+*.log
+.tmp/
+.sandbox-dir/
+.sandbox-probe.txt
+.screenshots/
+
+# IDE / 系统文件
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# 与本应用发布无关的临时脚本和另一个独立工程
+PiggyFund/
+probe-java/
+README-recovered.md
+inspect_fail.py
+recover_readme.py
+scan_all.py
+scan_readme.py
+
+# 说明：dist/ 下的本版 APK 需要随 Release 提供，故不忽略
+# 旧版本安装包只在本地保留，不入库
+dist/每日清单-1.20.apk
